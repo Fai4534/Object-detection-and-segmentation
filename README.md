@@ -3,13 +3,9 @@ This project uses Detectron2, a state-of-the-art deep learning framework for obj
 The workflow includes:
 
 Dataset setup (images + COCO-style annotations)
-
 Detectron2 model training
-
 Model inference on test images
-
 Visualization of bounding boxes and masks
-
 Modularized code for reuse and clarity
 
 The project is divided into multiple folders: input data, source code, trained model output, and notebooks for training and inference.
