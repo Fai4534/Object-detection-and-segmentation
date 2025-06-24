@@ -17,6 +17,63 @@ Antibiograms are used by clinicians to monitor local antibiotic resistance patte
 
 ---
 
+## 📁 Folder Structure
+
+- `Input/` includes training and testing folders  
+- `Source/` includes modularized scripts  
+- `Output/` stores the trained model  
+- `Lib/` includes notebooks for experimentation
+
+---
+
+## 🧪 Dataset
+
+The dataset consists of antibiogram test images, annotated in COCO format. After downloading and unzipping, place the data in the `Input/` directory before running the code.
+
+---
+
+## ⚙️ How It Works
+
+1. Register dataset using Detectron2’s API  
+2. Configure and initialize the model  
+3. Train the model on labeled antibiogram images  
+4. Perform inference on new images  
+5. Generate bounding boxes and masks for zones of inhibition  
+6. Save and visualize the results
+
+---
+
+## 💡 Key Learnings
+
+- Understanding antibiotic susceptibility testing  
+- Image classification vs detection vs segmentation  
+- Using Detectron2 for medical image analysis  
+- Modularizing ML projects for maintainability  
+- Visualizing predictions and interpreting masks
+
+---
+
+## 📦 Usage
+
+1. Clone the repository  
+2. Install required dependencies  
+3. Unzip the dataset and place it in the correct directory  
+4. Run training and inference using provided scripts or notebooks
+
+---
+
+## 🔍 Output
+
+The output includes segmented zones of inhibition with bounding boxes and masks for each object detected in the image.
+
+---
+
+## 📌 Notes
+
+- This project is for educational and research purposes.  
+- Further validation is required before any clinical application.  
+- The model and code are structured for modular use and easy adaptation.
+
 ## 🧠 Project Overview
 
 The project includes:
